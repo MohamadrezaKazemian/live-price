@@ -189,8 +189,8 @@ const Home: NextPage = () => {
         return (
             createData(
                 <StarBorderIcon cursor={"pointer"} className={classes.starIcon}/>,
-                <Typography dir={'ltr'} color={items?.percent.toString().includes('-') ? "#EB4137" : "#38C084"}>{
-                    items?.percent.toString().includes('-') ? `${ items?.percent}%` : "+"+items?.percent + "%"
+                <Typography dir={'ltr'} color={items?.percent.toString().includes('-') ? "#EB4137" :  items?.percent === 0 ? "#757575" :   "#38C084"}>{
+                    items?.percent.toString().includes('-') ?`${ items?.percent}%` :   items?.percent.toString().includes('0') ? `${items?.percent}%` : `+${items?.percent}%`
                 }</Typography>,
                 items.chart.length ? <Sparklines data={items?.chart} width={100} height={60} margin={5}>
                     <SparklinesLine  color={items?.percent.toString().includes('-') ? "#EB4137" : "#38C084"}  />
