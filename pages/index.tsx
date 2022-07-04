@@ -115,7 +115,7 @@ const useStyles = makeStyles({
         width: `100%`,
         justifyContent: `center`,
         alignItems: `center`,
-        gap: `20px`
+        gap: `11px`
     },
     coinNumber: {
         background: `#E0E0E0`,
@@ -125,7 +125,6 @@ const useStyles = makeStyles({
         marginRight: `5px`
         // marginLeft:`0px`
     },
-
     fullFlex:{
         display:`flex`,
         justifyContent:`center`,
@@ -138,7 +137,7 @@ const useStyles = makeStyles({
       }
 
     }
-})
+}, { name: "MuiExample_Component" })
 const Home: NextPage = () => {
 
 
