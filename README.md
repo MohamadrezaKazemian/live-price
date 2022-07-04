@@ -11,3 +11,6 @@ npm run dev
 yarn
 yarn dev
 ```
+
+
+p.s : there is some console errors that im workin on.
