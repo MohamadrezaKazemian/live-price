@@ -12,5 +12,5 @@ yarn
 yarn dev
 ```
 
-
+vercel link : https://live-price-three.vercel.app
 p.s : there is some console errors that im workin on.
